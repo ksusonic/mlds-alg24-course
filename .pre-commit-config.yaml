@@ -3,5 +3,5 @@ repos:
     rev: v0.3.7
     hooks:
       - id: ruff
-        args: [ --fix ]
+        args: [ --fix, --ignore=E741 ]
       - id: ruff-format
